@@ -1,0 +1,491 @@
+Settings used
+
+alignment         : ./cnid_75_taxa.phylip
+branchlengths     : linked
+models            : MTMAM+I+G+F, DAYHOFF+G, CPREV+I+G+F, CPREV+I+G, MTMAM+G, JTT+I+G+F, MTMAM+G+F, RTREV+G+F, DCMUT+I+G, RTREV+I+G, VT+G+F, DCMUT+G, MTMAM+I+G, WAG+I+G+F, DCMUT+G+F, LG+G+F, RTREV+I+G+F, WAG+I+G, CPREV+G, MTREV+I+G+F, DAYHOFF+I+G, LG+G, MTREV+G, VT+G, LG+I+G, MTREV+G+F, DAYHOFF+I+G+F, WAG+G, JTT+G, CPREV+G+F, WAG+G+F, BLOSUM62+G+F, MTREV+I+G, JTT+G+F, DCMUT+I+G+F, BLOSUM62+I+G+F, DAYHOFF+G+F, LG+I+G+F, RTREV+G, VT+I+G, BLOSUM62+I+G, BLOSUM62+G, JTT+I+G, VT+I+G+F
+model_selection   : bic
+search            : rcluster
+weights           : rate = 1, base = 0, model = 0, alpha = 0
+rcluster-percent  : 0.1
+
+
+Best partitioning scheme
+
+Scheme Name       : step_125
+Scheme lnL        : -2139498.5341
+Scheme BIC        : 4288110.46284
+Number of params  : 837
+Number of sites   : 53539
+Number of subsets : 232
+
+Subset | Best Model | Subset Partitions              | Subset Sites                   | Alignment                               
+1      | LG+G       | OG0000005_rename               | 1-186                          | ./analysis/phylofiles/bf78723d1bba1867ee11888758afdb12.phy
+2      | LG+G       | OG0000018_rename, OG0005135_rename, OG0005894_rename, OG0009202_rename | 187-324, 16209-16534, 22190-22370, 53343-53443 | ./analysis/phylofiles/9964677636749fbeb6d49e88072d92e6.phy
+3      | LG+G       | OG0000023_rename, OG0006987_rename, OG0007836_rename | 325-499, 36668-36794, 48643-48778 | ./analysis/phylofiles/8c1f14f258551f116fb222d0f23e9b4f.phy
+4      | LG+G       | OG0000049_rename               | 500-671                        | ./analysis/phylofiles/fdad9553c6f0c2ba78f97628d0d1e730.phy
+5      | LG+G       | OG0000054_rename, OG0003285_rename, OG0006526_rename | 672-945, 10291-10442, 29790-29908 | ./analysis/phylofiles/0809ad6ba58fe1ee017f620c7210d71c.phy
+6      | LG+G       | OG0000088_rename               | 946-1118                       | ./analysis/phylofiles/8cc9031e0877a8822dc38d814bf5e381.phy
+7      | LG+G       | OG0000111_rename               | 1119-1319                      | ./analysis/phylofiles/2bf68276613be472a7816448c04bd620.phy
+8      | JTT+G      | OG0000123_rename               | 1320-1490                      | ./analysis/phylofiles/64f7363bcf3e7a320a85cc378736476a.phy
+9      | LG+G       | OG0000138_rename, OG0000731_rename, OG0004731_rename, OG0006584_rename, OG0006806_rename | 1491-1767, 5153-5352, 14062-14392, 30377-30438, 34049-34236 | ./analysis/phylofiles/93015fe046e809d53a11d21d2975f8f0.phy
+10     | LG+I+G     | OG0000145_rename               | 1768-1952                      | ./analysis/phylofiles/f68f3b72950a8e9da58d359f40579350.phy
+11     | LG+G       | OG0000158_rename, OG0006013_rename | 1953-2107, 23743-23956         | ./analysis/phylofiles/5fec077a04f3a273bd51aeaa14b42ec8.phy
+12     | LG+G       | OG0000205_rename, OG0001635_rename, OG0007024_rename, OG0007145_rename, OG0007217_rename, OG0007969_rename | 2108-2237, 7262-7457, 37757-37855, 39561-39659, 40575-40721, 49862-49973 | ./analysis/phylofiles/8dfb60a7e175b5d36aeacf7957bb235d.phy
+13     | LG+G       | OG0000209_rename               | 2238-2425                      | ./analysis/phylofiles/a698c45a91538188e1633ef20722ab03.phy
+14     | LG+G       | OG0000232_rename               | 2426-2498                      | ./analysis/phylofiles/2837e7a7f27ce3eebcc160cec8323486.phy
+15     | LG+I+G     | OG0000287_rename               | 2499-2701                      | ./analysis/phylofiles/60954aa303064963a22f8b6079183104.phy
+16     | LG+G       | OG0000312_rename, OG0005293_rename | 2702-2999, 17266-17458         | ./analysis/phylofiles/ad298f04d1996116513cea84c04a3a5a.phy
+17     | LG+G       | OG0000326_rename               | 3000-3266                      | ./analysis/phylofiles/dbfb07b0fab385bcd2cf8bbea0972f45.phy
+18     | WAG+G      | OG0000364_rename               | 3267-3466                      | ./analysis/phylofiles/7afec1e548b2351b6ed8147f097bae99.phy
+19     | LG+I+G     | OG0000372_rename, OG0002839_rename, OG0005237_rename, OG0006475_rename, OG0006772_rename, OG0007831_rename | 3467-3675, 9704-9854, 16957-17126, 28529-28690, 33862-33948, 48467-48642 | ./analysis/phylofiles/ddb667813ca00eede1bf870b476aeda7.phy
+20     | LG+G       | OG0000397_rename               | 3676-3811                      | ./analysis/phylofiles/c875fe89f4d82229280a42eb5d6bd886.phy
+21     | LG+G       | OG0000416_rename, OG0006039_rename | 3812-3921, 23957-24133         | ./analysis/phylofiles/e1ab00211d678d720c2d4d0b295fbe62.phy
+22     | LG+G       | OG0000428_rename               | 3922-4044                      | ./analysis/phylofiles/1fddda89ecf0e6210e80acece336dc86.phy
+23     | LG+G       | OG0000438_rename, OG0001332_rename, OG0004330_rename, OG0006586_rename, OG0006670_rename | 4045-4173, 6640-6831, 11290-11497, 30439-30582, 31966-32084 | ./analysis/phylofiles/84b9fe9ebe10161404127157165739b2.phy
+24     | LG+G       | OG0000455_rename               | 4174-4323                      | ./analysis/phylofiles/956659da24464d0b92ac63b25e819328.phy
+25     | JTT+G      | OG0000501_rename               | 4324-4481                      | ./analysis/phylofiles/3a7641e35f37b7ae7e240a254292f8a2.phy
+26     | LG+G       | OG0000708_rename               | 4482-4742                      | ./analysis/phylofiles/709511e6e42ebeea977a247933768356.phy
+27     | LG+I+G     | OG0000724_rename, OG0003575_rename, OG0005058_rename, OG0005197_rename, OG0005418_rename, OG0006668_rename, OG0007688_rename, OG0007954_rename | 4743-4988, 10678-10717, 15562-15676, 16535-16686, 18142-18238, 31773-31965, 46770-46924, 49082-49132 | ./analysis/phylofiles/5aba2d25d0c786260a9b885ff7bfc600.phy
+28     | LG+I+G     | OG0000728_rename               | 4989-5152                      | ./analysis/phylofiles/5f0d368fd25a8f035b16bec540c95065.phy
+29     | LG+G       | OG0000778_rename               | 5353-5610                      | ./analysis/phylofiles/de7bde700ccd35456d8d695f6c209bcc.phy
+30     | LG+G       | OG0000799_rename, OG0005305_rename | 5611-5863, 17459-17688         | ./analysis/phylofiles/e91fd3014aadcf45754c58650e8c9beb.phy
+31     | LG+I+G     | OG0000844_rename, OG0007710_rename, OG0008538_rename | 5864-6004, 47443-47480, 52236-52384 | ./analysis/phylofiles/9502307a5442a3cba4c54c7fe703f14a.phy
+32     | LG+I+G     | OG0000857_rename               | 6005-6117                      | ./analysis/phylofiles/b9d053b387b896cda1c7e5e586b9fa2e.phy
+33     | LG+G       | OG0000860_rename, OG0005247_rename, OG0005336_rename, OG0006179_rename, OG0006698_rename | 6118-6229, 17127-17265, 17689-17901, 25952-26137, 32482-32663 | ./analysis/phylofiles/44af7008c06d05536d2a1c7872a882f5.phy
+34     | JTT+G      | OG0001087_rename               | 6230-6375                      | ./analysis/phylofiles/4bc57e324db40b5f74b5240528ac0a85.phy
+35     | LG+G       | OG0001263_rename, OG0003666_rename, OG0004839_rename | 6376-6563, 10718-10809, 15017-15205 | ./analysis/phylofiles/df1b99d2bbcfbbebcf20f80e93365e4d.phy
+36     | LG+I+G     | OG0001302_rename               | 6564-6639                      | ./analysis/phylofiles/15d8285dc1edd0385280f3417749d304.phy
+37     | LG+G       | OG0001385_rename, OG0007390_rename | 6832-7058, 43736-43936         | ./analysis/phylofiles/aa8cd4aebd9abb4af397086e063503be.phy
+38     | LG+G       | OG0001464_rename               | 7059-7261                      | ./analysis/phylofiles/fc6dbf000661fee57bc1fce26162500a.phy
+39     | LG+G       | OG0001697_rename               | 7458-7639                      | ./analysis/phylofiles/22feace0971f135b8f688c53a5ca038b.phy
+40     | LG+G       | OG0001920_rename               | 7640-7832                      | ./analysis/phylofiles/9e348e9c8e0afe16026df965b80539e6.phy
+41     | LG+G       | OG0001995_rename               | 7833-7980                      | ./analysis/phylofiles/a51b42f115ad456cf6dd4b2871910e50.phy
+42     | LG+G       | OG0002044_rename               | 7981-8096                      | ./analysis/phylofiles/5ac138df429388bb6a9da87ca0d63197.phy
+43     | LG+G       | OG0002108_rename               | 8097-8304                      | ./analysis/phylofiles/565764d0e550c68c0b26f18394061c7d.phy
+44     | LG+I+G     | OG0002158_rename               | 8305-8359                      | ./analysis/phylofiles/72bd6ac789814402cf78c46b719a9383.phy
+45     | LG+G       | OG0002401_rename               | 8360-8498                      | ./analysis/phylofiles/713ec21a5cd1e3819fae871ed8df8ed1.phy
+46     | LG+G       | OG0002517_rename               | 8499-8613                      | ./analysis/phylofiles/a9be58df64677587e7dcde1a96049a8f.phy
+47     | LG+G       | OG0002537_rename, OG0005517_rename, OG0005742_rename, OG0006182_rename | 8614-8771, 19364-19526, 21183-21305, 26138-26264 | ./analysis/phylofiles/c13e626819de00b2ec3fe45d95ede7a3.phy
+48     | LG+I+G     | OG0002571_rename, OG0006897_rename | 8772-8845, 35559-35737         | ./analysis/phylofiles/a8f09c94cbf4d165bacc5da3c8828e67.phy
+49     | LG+G       | OG0002597_rename               | 8846-9063                      | ./analysis/phylofiles/7add903372d3ca66c6051fbad42a287d.phy
+50     | LG+I+G     | OG0002626_rename, OG0005822_rename, OG0007058_rename, OG0007087_rename | 9064-9201, 21896-22031, 38221-38355, 38976-39077 | ./analysis/phylofiles/34915f184b0121e1ee86c5b4f33b5522.phy
+51     | LG+I+G     | OG0002642_rename, OG0006766_rename, OG0007109_rename, OG0007977_rename | 9202-9385, 33762-33861, 39253-39355, 49974-50045 | ./analysis/phylofiles/abe81a2ca5beaf2714f8ea8ae4813bb2.phy
+52     | LG+G       | OG0002807_rename, OG0006626_rename | 9386-9703, 31313-31460         | ./analysis/phylofiles/cda88efa583733cda39fe867e949de19.phy
+53     | LG+G       | OG0002938_rename, OG0008374_rename | 9855-10168, 52106-52136        | ./analysis/phylofiles/323da676742f4b06df3d515354b2b94f.phy
+54     | LG+I+G     | OG0003214_rename, OG0006068_rename, OG0006126_rename, OG0006290_rename, OG0007061_rename, OG0007963_rename | 10169-10290, 24701-24924, 25313-25480, 26727-26849, 38356-38533, 49306-49508 | ./analysis/phylofiles/a2541f57202215fceb73efb8090c78e3.phy
+55     | LG+G       | OG0003460_rename               | 10443-10546                    | ./analysis/phylofiles/53cbc42b74781964148db71b6003a61b.phy
+56     | LG+G       | OG0003573_rename               | 10547-10677                    | ./analysis/phylofiles/be0d8aa5f4e5e31b39de58b61d93b8b4.phy
+57     | LG+G       | OG0003694_rename               | 10810-10927                    | ./analysis/phylofiles/5176b71570bd30dec7a37393d38a5cce.phy
+58     | LG+G       | OG0004132_rename, OG0005518_rename, OG0007985_rename | 10928-11046, 19527-19616, 50233-50407 | ./analysis/phylofiles/614aafb5c957f8734467016abba5a27c.phy
+59     | LG+G       | OG0004220_rename               | 11047-11289                    | ./analysis/phylofiles/b6371114cb642ec18d9786d671a3b937.phy
+60     | LG+G       | OG0004397_rename               | 11498-11851                    | ./analysis/phylofiles/505c7c0f32a188c7f72172dd986c2dd3.phy
+61     | LG+I+G     | OG0004403_rename               | 11852-12047                    | ./analysis/phylofiles/4f36babbc810bf0e8e753bb9b39d81ce.phy
+62     | LG+G       | OG0004432_rename, OG0006718_rename, OG0007895_rename | 12048-12196, 33053-33172, 48901-49081 | ./analysis/phylofiles/827fcd015a19ccec0ed956856dd20e03.phy
+63     | JTT+G      | OG0004481_rename, OG0006416_rename, OG0007709_rename | 12197-12309, 28186-28244, 47313-47442 | ./analysis/phylofiles/68e6d1f836a618b9072d02be8d1e30b2.phy
+64     | LG+G       | OG0004491_rename, OG0005505_rename | 12310-12532, 19252-19363       | ./analysis/phylofiles/a314880bef40f899bad8ba4252bb1604.phy
+65     | LG+I+G     | OG0004495_rename, OG0008456_rename | 12533-12783, 52137-52235       | ./analysis/phylofiles/e83f9d53dac881ddffe6f285bffbc65b.phy
+66     | LG+G       | OG0004517_rename               | 12784-12995                    | ./analysis/phylofiles/a8667d8358861557032206554dee832a.phy
+67     | LG+G       | OG0004538_rename               | 12996-13217                    | ./analysis/phylofiles/9bd52bad806f80db0e8bcba9814c30a6.phy
+68     | LG+I+G     | OG0004598_rename, OG0005072_rename, OG0005665_rename, OG0008222_rename | 13218-13470, 15677-15845, 20599-20767, 51663-51786 | ./analysis/phylofiles/396c3ecf6d58626d612944eadf34d7b7.phy
+69     | LG+G       | OG0004611_rename, OG0006041_rename, OG0006372_rename, OG0006688_rename, OG0006929_rename, OG0007303_rename, OG0007841_rename | 13471-13581, 24134-24231, 27502-27638, 32085-32233, 36190-36306, 41745-41862, 48779-48900 | ./analysis/phylofiles/e60fbf33fc97a13860eae2fd4a3c6ee9.phy
+70     | LG+G       | OG0004671_rename               | 13582-13708                    | ./analysis/phylofiles/e11229a7575aa27fe98d1329c71cc126.phy
+71     | LG+G       | OG0004679_rename               | 13709-13796                    | ./analysis/phylofiles/b360ab1d84b12f04778925c57966a683.phy
+72     | LG+G       | OG0004684_rename               | 13797-14061                    | ./analysis/phylofiles/7048ffad4057a39a97c105a4b1a3057e.phy
+73     | LG+G       | OG0004778_rename               | 14393-14779                    | ./analysis/phylofiles/2838cafca4926b80225c48767639f672.phy
+74     | LG+G       | OG0004794_rename, OG0005732_rename | 14780-14895, 21075-21182       | ./analysis/phylofiles/4f42a31eba54d72e3d8cdecce175be3f.phy
+75     | LG+G+F     | OG0004816_rename               | 14896-15016                    | ./analysis/phylofiles/8097d179ae7d0f9e6e61bb162a30eecd.phy
+76     | LG+G       | OG0004907_rename, OG0005524_rename, OG0007327_rename | 15206-15314, 19617-19781, 42001-42169 | ./analysis/phylofiles/3e62b279271de59fba30c2cfee405388.phy
+77     | LG+G       | OG0005026_rename, OG0007232_rename | 15315-15444, 40829-40937       | ./analysis/phylofiles/fb443f03e0299d769fb99c0ceeb062cd.phy
+78     | LG+G       | OG0005048_rename, OG0007550_rename | 15445-15561, 45175-45347       | ./analysis/phylofiles/772c969727899a577368c1e05e9debeb.phy
+79     | LG+G       | OG0005112_rename, OG0006993_rename, OG0007000_rename | 15846-16021, 37204-37292, 37486-37620 | ./analysis/phylofiles/1ada7263a41c829db9b90d61064d3ac8.phy
+80     | LG+G       | OG0005116_rename               | 16022-16208                    | ./analysis/phylofiles/52adacd583a2860ca9e45a97776bddf0.phy
+81     | LG+G+F     | OG0005215_rename               | 16687-16956                    | ./analysis/phylofiles/557a6cc2bbd925246d53f78b9d408e12.phy
+82     | LG+I+G     | OG0005337_rename               | 17902-18019                    | ./analysis/phylofiles/fbfe45c212a3b34f679bf1e52b7e787d.phy
+83     | LG+G       | OG0005352_rename, OG0006187_rename, OG0007447_rename | 18020-18141, 26265-26440, 44316-44465 | ./analysis/phylofiles/c8bc27b0da0f1434e4e1fe430f484592.phy
+84     | WAG+I+G    | OG0005431_rename               | 18239-18325                    | ./analysis/phylofiles/1767f61dc3800c2bc3c22d3eab5be547.phy
+85     | LG+G       | OG0005440_rename               | 18326-18501                    | ./analysis/phylofiles/e073916b73643fcec9f5a167b2c82812.phy
+86     | JTT+G      | OG0005447_rename               | 18502-18647                    | ./analysis/phylofiles/b053b73ba380fd5ab8831928e7bff582.phy
+87     | LG+G       | OG0005454_rename               | 18648-18786                    | ./analysis/phylofiles/520d1f525cde5de240ca1cc45af93e47.phy
+88     | LG+G       | OG0005472_rename               | 18787-18975                    | ./analysis/phylofiles/6ff3e81f9f301edfdaf9295434da6023.phy
+89     | LG+I+G     | OG0005473_rename               | 18976-19251                    | ./analysis/phylofiles/641f69026dc3fbbf5e05acaebc6ae6d5.phy
+90     | LG+I+G     | OG0005559_rename               | 19782-19947                    | ./analysis/phylofiles/0b842d559b9cbce562d3cf9099050346.phy
+91     | JTT+G      | OG0005574_rename               | 19948-20093                    | ./analysis/phylofiles/5c087f5e3ed5765ac6d74845b248b3c6.phy
+92     | LG+G       | OG0005589_rename               | 20094-20249                    | ./analysis/phylofiles/a136719ab95bfb4114ceab415afc9501.phy
+93     | LG+G       | OG0005623_rename               | 20250-20350                    | ./analysis/phylofiles/7924c0095089e636ec834aa848317d95.phy
+94     | LG+G+F     | OG0005628_rename               | 20351-20549                    | ./analysis/phylofiles/64d799c9556402aa4bca15650e6c1c2a.phy
+95     | LG+G       | OG0005662_rename, OG0006400_rename | 20550-20598, 27922-28063       | ./analysis/phylofiles/91b301188b040080ac774a916dbf63d0.phy
+96     | DAYHOFF+I+G | OG0005667_rename               | 20768-20883                    | ./analysis/phylofiles/2407029a73d2c92de4b65ff8e1f65b06.phy
+97     | LG+I+G     | OG0005689_rename               | 20884-21074                    | ./analysis/phylofiles/6a794f90b8c8e059a4efa9711b6c1599.phy
+98     | WAG+G      | OG0005747_rename               | 21306-21357                    | ./analysis/phylofiles/06b1d1f587f03c7460b6b387c419ef0f.phy
+99     | LG+G       | OG0005773_rename               | 21358-21504                    | ./analysis/phylofiles/a887441550ff1faf038f4ad14c13be95.phy
+100    | LG+G       | OG0005776_rename, OG0006000_rename | 21505-21733, 23409-23530       | ./analysis/phylofiles/81d18e51b0eb751e76e8d60650c1e027.phy
+101    | DAYHOFF+G  | OG0005787_rename               | 21734-21895                    | ./analysis/phylofiles/a77588f34840d8a900d4c3049c8a6284.phy
+102    | LG+G       | OG0005848_rename               | 22032-22189                    | ./analysis/phylofiles/9396922a01965e90db437c7c02c08429.phy
+103    | JTT+G      | OG0005898_rename               | 22371-22573                    | ./analysis/phylofiles/ab4aec634b1850464198ee080d9b0692.phy
+104    | LG+G       | OG0005945_rename, OG0006232_rename | 22574-22689, 26441-26553       | ./analysis/phylofiles/7eea2be4b08fde5651117878cf28c614.phy
+105    | LG+I+G     | OG0005948_rename               | 22690-22870                    | ./analysis/phylofiles/a5027cbe4f3049d9ad7c7eacab951a60.phy
+106    | LG+G       | OG0005953_rename, OG0006355_rename | 22871-22998, 27230-27339       | ./analysis/phylofiles/fa72159f77926710c696838ea02eea3a.phy
+107    | LG+I+G     | OG0005954_rename               | 22999-23149                    | ./analysis/phylofiles/8fa156d165b7866930433c989fdbff74.phy
+108    | LG+I+G+F   | OG0005956_rename, OG0007420_rename | 23150-23408, 43937-44135       | ./analysis/phylofiles/8580d12d8861f8b5b903c561130840e5.phy
+109    | LG+I+G     | OG0006005_rename, OG0006304_rename, OG0006817_rename | 23531-23647, 26850-26980, 34623-34748 | ./analysis/phylofiles/b7fd700b0ec6ba29e0f05789d680a6a0.phy
+110    | LG+I+G     | OG0006006_rename, OG0006176_rename, OG0006579_rename, OG0006809_rename, OG0006921_rename | 23648-23742, 25819-25951, 30029-30152, 34237-34417, 35865-36083 | ./analysis/phylofiles/8e9f8b373ac16d9eb926f4e997f947dd.phy
+111    | LG+I+G     | OG0006042_rename, OG0007071_rename, OG0007204_rename | 24232-24376, 38709-38812, 40488-40574 | ./analysis/phylofiles/57ada293f933c678683c8be8fb39eb63.phy
+112    | LG+G       | OG0006062_rename               | 24377-24493                    | ./analysis/phylofiles/ace86ec72333cce8b3aba063384c4ed0.phy
+113    | LG+G       | OG0006063_rename               | 24494-24700                    | ./analysis/phylofiles/ab5ddca39562dc07724e044b1fdc4937.phy
+114    | LG+G       | OG0006114_rename               | 24925-25015                    | ./analysis/phylofiles/37eb82fdf2afa4d2d7fc4ef2d418d28f.phy
+115    | LG+G       | OG0006119_rename               | 25016-25119                    | ./analysis/phylofiles/401a9c1ca1191c12d2371da7538505ad.phy
+116    | LG+G       | OG0006120_rename               | 25120-25312                    | ./analysis/phylofiles/3dc185324a7a6aaaae7206d7aea0ceca.phy
+117    | LG+I+G     | OG0006130_rename               | 25481-25685                    | ./analysis/phylofiles/936254cb9e1c4e8dafcff0f68547991e.phy
+118    | LG+G+F     | OG0006171_rename               | 25686-25818                    | ./analysis/phylofiles/3d568f9da6bc89f0882569f885515654.phy
+119    | LG+G       | OG0006250_rename               | 26554-26683                    | ./analysis/phylofiles/e7e09c31114c70bb26b7563e5910d793.phy
+120    | LG+G       | OG0006286_rename               | 26684-26726                    | ./analysis/phylofiles/f02a106e63b93c385291278bbd143e58.phy
+121    | LG+G       | OG0006340_rename               | 26981-27058                    | ./analysis/phylofiles/2f4ba19e6733b5b11043d616ce5aee1b.phy
+122    | LG+G       | OG0006344_rename               | 27059-27229                    | ./analysis/phylofiles/836300ba28d7e0d2d3541e499d20e06d.phy
+123    | LG+I+G     | OG0006357_rename               | 27340-27501                    | ./analysis/phylofiles/394e929571979d505fe54e93419de4e3.phy
+124    | JTT+G      | OG0006382_rename               | 27639-27775                    | ./analysis/phylofiles/4b92d009b6d4e057c87482c53491995c.phy
+125    | LG+G       | OG0006395_rename               | 27776-27921                    | ./analysis/phylofiles/582f6d89310d1b1bb15f2fe48a8db3f6.phy
+126    | LG+G       | OG0006408_rename, OG0007375_rename | 28064-28185, 43623-43735       | ./analysis/phylofiles/ce4786a3d7fea048de9e48624f5e1f4a.phy
+127    | LG+I+G     | OG0006465_rename, OG0006775_rename | 28245-28451, 33949-34048       | ./analysis/phylofiles/a86ef48d4c3b10a16ae6df65fe207828.phy
+128    | JTT+G      | OG0006471_rename               | 28452-28528                    | ./analysis/phylofiles/b5e3e245ad5e138a471548908e6aa496.phy
+129    | LG+G       | OG0006477_rename               | 28691-28873                    | ./analysis/phylofiles/92827ddb02993b28ff4b569be8b429df.phy
+130    | LG+G       | OG0006478_rename               | 28874-28980                    | ./analysis/phylofiles/0a22ca2aac7b6d4ba08b559409c3c0ee.phy
+131    | LG+G       | OG0006494_rename, OG0007657_rename | 28981-29202, 46563-46769       | ./analysis/phylofiles/e6bca728addb1704f86872264a8dcc2b.phy
+132    | WAG+G      | OG0006514_rename               | 29203-29409                    | ./analysis/phylofiles/2cccfeff2239b6ef65365e8596f32ed4.phy
+133    | LG+G       | OG0006515_rename               | 29410-29578                    | ./analysis/phylofiles/59e049a536c749aad750e60f738517cd.phy
+134    | LG+G       | OG0006524_rename, OG0007557_rename, OG0009067_rename | 29579-29789, 45597-45774, 53294-53342 | ./analysis/phylofiles/8cba2c12743ece860ad098c1d1089981.phy
+135    | LG+I+G     | OG0006543_rename, OG0007333_rename | 29909-30028, 42289-42427       | ./analysis/phylofiles/4e32fa80886adbed083d4b3c48997ee3.phy
+136    | LG+I+G     | OG0006580_rename               | 30153-30274                    | ./analysis/phylofiles/2fb64683ce5441f5b7ebf9a297845140.phy
+137    | CPREV+I+G  | OG0006581_rename               | 30275-30376                    | ./analysis/phylofiles/1acffdd6015a9a6c59f148608759632f.phy
+138    | LG+I+G     | OG0006597_rename               | 30583-30753                    | ./analysis/phylofiles/030c884a620f58f934ede25b7da7255b.phy
+139    | WAG+G      | OG0006599_rename               | 30754-30976                    | ./analysis/phylofiles/537989f81dc749af80f73f4ac78be23c.phy
+140    | LG+G+F     | OG0006613_rename               | 30977-31312                    | ./analysis/phylofiles/ed107c54cca4cebc5138db28d67a6f07.phy
+141    | LG+G       | OG0006628_rename               | 31461-31514                    | ./analysis/phylofiles/129bb18e2eaf7cba7041d20ba043ae32.phy
+142    | LG+G       | OG0006635_rename               | 31515-31644                    | ./analysis/phylofiles/1f21317fd3ddb83bbf5dc29437d237a6.phy
+143    | WAG+G      | OG0006637_rename               | 31645-31772                    | ./analysis/phylofiles/e6892176f990cc4a3d513c7b3aed7a83.phy
+144    | LG+I+G     | OG0006689_rename               | 32234-32371                    | ./analysis/phylofiles/7a66f1f961ff0f23df726f744a94f3da.phy
+145    | LG+I+G     | OG0006693_rename               | 32372-32481                    | ./analysis/phylofiles/ae418373fbedde9a966735420d2440f5.phy
+146    | LG+G       | OG0006699_rename               | 32664-32843                    | ./analysis/phylofiles/8e9e0c2a074c3f669851886b783488f3.phy
+147    | LG+G       | OG0006705_rename               | 32844-33052                    | ./analysis/phylofiles/f4cdc05a4c0abc68a66867c313b31027.phy
+148    | LG+I+G     | OG0006731_rename               | 33173-33323                    | ./analysis/phylofiles/d5b8a25c34a00b018c9dabe90e78bd0f.phy
+149    | LG+G       | OG0006746_rename               | 33324-33529                    | ./analysis/phylofiles/57181d80398248ebaef5eb3371c72769.phy
+150    | LG+G       | OG0006747_rename               | 33530-33621                    | ./analysis/phylofiles/0fadf39363a6a3ff5d3333fd9bfa7043.phy
+151    | LG+G       | OG0006755_rename               | 33622-33761                    | ./analysis/phylofiles/e4207caaa52f3c43c84e7d36bde056d4.phy
+152    | LG+G       | OG0006811_rename               | 34418-34622                    | ./analysis/phylofiles/398acfa226a6d2a6360e5ee59564071b.phy
+153    | LG+G       | OG0006821_rename               | 34749-35013                    | ./analysis/phylofiles/cd461ca98219113111b02a3cc2ab08cb.phy
+154    | LG+G       | OG0006860_rename               | 35014-35202                    | ./analysis/phylofiles/c185c8ac1f41f1b2523614717a5b9cc7.phy
+155    | LG+G+F     | OG0006873_rename, OG0007510_rename | 35203-35339, 44915-45023       | ./analysis/phylofiles/cd8b9d2fb423cc390506c47be4489c9f.phy
+156    | LG+G       | OG0006876_rename               | 35340-35439                    | ./analysis/phylofiles/0924f648d0e5b8f8245abb7a73edc96b.phy
+157    | JTT+G      | OG0006882_rename               | 35440-35558                    | ./analysis/phylofiles/b011d4a1023a2a04801390af2966d883.phy
+158    | LG+G       | OG0006909_rename, OG0007614_rename | 35738-35864, 45926-46110       | ./analysis/phylofiles/a1a00f3ea4d4a229575e82d091c93fc5.phy
+159    | LG+I+G     | OG0006928_rename               | 36084-36189                    | ./analysis/phylofiles/46dba123a301b37ac4c990725fa7a999.phy
+160    | LG+I+G     | OG0006933_rename               | 36307-36380                    | ./analysis/phylofiles/b520221ba770b68e15f69005cf7930e1.phy
+161    | LG+I+G     | OG0006934_rename               | 36381-36554                    | ./analysis/phylofiles/e2af054977e70675ed5c2b3f140e80d1.phy
+162    | LG+I+G     | OG0006948_rename               | 36555-36667                    | ./analysis/phylofiles/a19db144c65b9015a29a766db9a40350.phy
+163    | CPREV+G+F  | OG0006991_rename               | 36795-37025                    | ./analysis/phylofiles/396b81976978ab46757149144490f454.phy
+164    | LG+G       | OG0006992_rename, OG0007537_rename, OG0007978_rename | 37026-37203, 45024-45109, 50046-50232 | ./analysis/phylofiles/b183c85a9d0baac75cb771d74f956516.phy
+165    | VT+G       | OG0006995_rename, OG0007778_rename | 37293-37485, 48071-48218       | ./analysis/phylofiles/68e0042610ed5a8b580c538d4183f60d.phy
+166    | JTT+G      | OG0007004_rename               | 37621-37756                    | ./analysis/phylofiles/226bb98cdaf777190635e3a57200ffa0.phy
+167    | LG+G       | OG0007028_rename, OG0008335_rename | 37856-38041, 51911-52005       | ./analysis/phylofiles/e650a4e3819cf53c19fdb74b5133e1ce.phy
+168    | LG+G+F     | OG0007047_rename               | 38042-38220                    | ./analysis/phylofiles/3d7cf1a5818db854642cb651b4bba5bb.phy
+169    | LG+I+G     | OG0007066_rename               | 38534-38708                    | ./analysis/phylofiles/ef921d08a7e3003c52202efe20f739b6.phy
+170    | JTT+G      | OG0007084_rename               | 38813-38975                    | ./analysis/phylofiles/758e468789f2cc4d1fe7a3ff2802ed36.phy
+171    | LG+G       | OG0007089_rename               | 39078-39191                    | ./analysis/phylofiles/dce5e572cb1396aec5de44e29d41a03a.phy
+172    | LG+I+G     | OG0007101_rename               | 39192-39252                    | ./analysis/phylofiles/4c4c2a9d0a33d243fceed7d2dbd42439.phy
+173    | VT+G       | OG0007115_rename               | 39356-39426                    | ./analysis/phylofiles/273809f9ec3a723c45d2f8ef4331e1b9.phy
+174    | LG+G       | OG0007121_rename, OG0008543_rename | 39427-39560, 52456-52555       | ./analysis/phylofiles/726c54a2152672725a35182f868fbfa9.phy
+175    | LG+G       | OG0007159_rename, OG0007226_rename | 39660-39743, 40722-40828       | ./analysis/phylofiles/c3e21e45989499392317e704c5e36853.phy
+176    | LG+G       | OG0007161_rename               | 39744-39851                    | ./analysis/phylofiles/c4aa42fb809a02d66d7a4e972a42c6b6.phy
+177    | LG+I+G     | OG0007175_rename               | 39852-40019                    | ./analysis/phylofiles/7eeb66628d038aa8e18fa8d4a73a3c17.phy
+178    | LG+G       | OG0007186_rename               | 40020-40277                    | ./analysis/phylofiles/efa7064627c4a2d9784988836e828ce6.phy
+179    | LG+G       | OG0007202_rename               | 40278-40487                    | ./analysis/phylofiles/a9801bf5d29c330e91323076642af124.phy
+180    | LG+I+G     | OG0007235_rename               | 40938-41157                    | ./analysis/phylofiles/649d621f9a6ef1dbb01688fb2e345064.phy
+181    | LG+G       | OG0007239_rename               | 41158-41251                    | ./analysis/phylofiles/4c52ab751246f62a4760e20f80a69041.phy
+182    | LG+G       | OG0007287_rename, OG0008052_rename | 41252-41377, 50966-51042       | ./analysis/phylofiles/77e07310cc6f9527f9875a6ccf207db9.phy
+183    | LG+G       | OG0007288_rename               | 41378-41519                    | ./analysis/phylofiles/be8082587029cf3436bf4716c6c6f2e2.phy
+184    | JTT+G      | OG0007292_rename               | 41520-41649                    | ./analysis/phylofiles/da136e7d5073cb54bfdbc763d0f12cdc.phy
+185    | JTT+G      | OG0007302_rename               | 41650-41744                    | ./analysis/phylofiles/df2dc93f9cc87272e0dc962b018db5ca.phy
+186    | LG+I+G     | OG0007307_rename               | 41863-42000                    | ./analysis/phylofiles/602094cb272ab401150d5fcca3c1e2ef.phy
+187    | LG+G       | OG0007331_rename, OG0007372_rename | 42170-42288, 43400-43622       | ./analysis/phylofiles/068414132c947af04784550527c19821.phy
+188    | LG+G       | OG0007336_rename               | 42428-42579                    | ./analysis/phylofiles/e38a4cb38543d0a196a41a27af5c2f47.phy
+189    | LG+G       | OG0007362_rename               | 42580-42707                    | ./analysis/phylofiles/c312da7e75d58e3103f976260a1cc831.phy
+190    | LG+I+G     | OG0007364_rename, OG0008629_rename | 42708-42874, 52809-52914       | ./analysis/phylofiles/0b9994a1d4f53cc30609c5f14d90f367.phy
+191    | LG+G       | OG0007365_rename               | 42875-43071                    | ./analysis/phylofiles/44b714ad1b6e9f0520cca3d90c63be85.phy
+192    | LG+I+G     | OG0007366_rename               | 43072-43265                    | ./analysis/phylofiles/c35ef0c67f85118a736acf36a80b5fd6.phy
+193    | LG+I+G     | OG0007368_rename               | 43266-43399                    | ./analysis/phylofiles/9419a3337e0f578249b2114bf6d3bb6c.phy
+194    | LG+G       | OG0007442_rename               | 44136-44315                    | ./analysis/phylofiles/4195d0b503091878b27d0dc098f097c7.phy
+195    | LG+I+G     | OG0007482_rename, OG0007958_rename | 44466-44537, 49133-49305       | ./analysis/phylofiles/34e7ce00ba38d49a6199e35d196e0f16.phy
+196    | LG+G       | OG0007491_rename               | 44538-44623                    | ./analysis/phylofiles/928b2ca10bf932646b3ebdc86b87643c.phy
+197    | LG+I+G     | OG0007508_rename, OG0007765_rename | 44624-44818, 47661-47849       | ./analysis/phylofiles/5ab8825e02466b5f3ae969a49efe23b0.phy
+198    | LG+G       | OG0007509_rename               | 44819-44914                    | ./analysis/phylofiles/0226eab089ee3a60c69022f01cf8b626.phy
+199    | LG+G       | OG0007542_rename, OG0008149_rename | 45110-45174, 51288-51333       | ./analysis/phylofiles/0e62ba2cd40caf08c369f981977b5484.phy
+200    | LG+G       | OG0007551_rename               | 45348-45476                    | ./analysis/phylofiles/628a5af9298e1d838748ac15cb9fb03e.phy
+201    | LG+G       | OG0007553_rename, OG0008045_rename | 45477-45596, 50866-50965       | ./analysis/phylofiles/a162a4ac57198809c8cb9da9a235862f.phy
+202    | JTT+I+G    | OG0007565_rename               | 45775-45874                    | ./analysis/phylofiles/0092d58ef414c9393bb6b667bde34032.phy
+203    | LG+G       | OG0007589_rename               | 45875-45925                    | ./analysis/phylofiles/09e3fff9a642d06fa17708b60610e623.phy
+204    | LG+G       | OG0007630_rename               | 46111-46253                    | ./analysis/phylofiles/f4759e3ef5ff4a5126c2a92fcc2a4efd.phy
+205    | JTT+G      | OG0007631_rename               | 46254-46456                    | ./analysis/phylofiles/65e7bc5ad4161fca82cb24301615707e.phy
+206    | JTT+G      | OG0007640_rename               | 46457-46562                    | ./analysis/phylofiles/024760d228032add407fd5221843e66c.phy
+207    | LG+G       | OG0007691_rename               | 46925-47056                    | ./analysis/phylofiles/92d3e6dffbde06b50dd4a558ce2cb215.phy
+208    | LG+G       | OG0007697_rename               | 47057-47143                    | ./analysis/phylofiles/55dbc9784e96ac3f3795ac270cf355a9.phy
+209    | LG+G       | OG0007707_rename               | 47144-47312                    | ./analysis/phylofiles/c124088b0eef4fe3debd5adca117a963.phy
+210    | LG+G       | OG0007724_rename               | 47481-47549                    | ./analysis/phylofiles/cc48c929d3bda7d3a2e032a0bf6ac29d.phy
+211    | LG+G       | OG0007727_rename               | 47550-47660                    | ./analysis/phylofiles/8c85ad9d5d05eb4a7fe2ee372fcd92dd.phy
+212    | LG+G       | OG0007768_rename               | 47850-47936                    | ./analysis/phylofiles/323d267f3ef8812747081f9314a77f6a.phy
+213    | LG+G       | OG0007776_rename               | 47937-48070                    | ./analysis/phylofiles/72f3dafa107022a694b08733d78ed7b6.phy
+214    | LG+G       | OG0007791_rename               | 48219-48266                    | ./analysis/phylofiles/6e46e17b0e851ddcf31974bdd6b64851.phy
+215    | LG+G       | OG0007828_rename               | 48267-48466                    | ./analysis/phylofiles/31707755a1926f64c27ad0c5d9befe78.phy
+216    | LG+G       | OG0007964_rename, OG0008130_rename | 49509-49595, 51198-51287       | ./analysis/phylofiles/7783382950a67c5e52c0a8400424d4d5.phy
+217    | LG+G       | OG0007967_rename               | 49596-49861                    | ./analysis/phylofiles/8e957908f44473f020f9761bdec68445.phy
+218    | JTT+G      | OG0007987_rename               | 50408-50588                    | ./analysis/phylofiles/5eba9424413b95080bb0ca33d79d7ad3.phy
+219    | LG+G       | OG0007994_rename               | 50589-50789                    | ./analysis/phylofiles/8a720fb46e1810dffc7212dd29a71107.phy
+220    | LG+I+G     | OG0008003_rename               | 50790-50865                    | ./analysis/phylofiles/90166063924b6a62b225fdf8b38c32b5.phy
+221    | LG+G       | OG0008088_rename               | 51043-51146                    | ./analysis/phylofiles/a4c31241ed231bb2c0d7d9301894d39c.phy
+222    | LG+G       | OG0008091_rename               | 51147-51197                    | ./analysis/phylofiles/4b3b3d64258cf907b08ae1002f13250a.phy
+223    | LG+I+G     | OG0008162_rename, OG0008344_rename, OG0008624_rename | 51334-51422, 52006-52105, 52685-52808 | ./analysis/phylofiles/47a680018b8d03bf1fd21370bb4dcfee.phy
+224    | LG+I+G     | OG0008167_rename               | 51423-51536                    | ./analysis/phylofiles/106d4b8e06eb06d5daec9e31c022ed5f.phy
+225    | LG+G       | OG0008170_rename               | 51537-51662                    | ./analysis/phylofiles/6d66f924c847c3b9bc59d170ef230733.phy
+226    | LG+G       | OG0008299_rename               | 51787-51910                    | ./analysis/phylofiles/d3d0a73efc8a55d5ca9cf534a780ec20.phy
+227    | LG+G       | OG0008540_rename               | 52385-52455                    | ./analysis/phylofiles/6510b96fa42bc3400dab45659e90ce70.phy
+228    | LG+G       | OG0008560_rename               | 52556-52684                    | ./analysis/phylofiles/72ea49bcadb1da09e6378b89d486e8ea.phy
+229    | LG+G       | OG0008641_rename               | 52915-53082                    | ./analysis/phylofiles/6021fe3baadc6d50af24b158e59f5dc9.phy
+230    | LG+G       | OG0008735_rename               | 53083-53190                    | ./analysis/phylofiles/27afda0c1f08b78e7a95f2efa67ae41f.phy
+231    | LG+G       | OG0008960_rename               | 53191-53293                    | ./analysis/phylofiles/66cd86d3571969e4430ecf32122aef07.phy
+232    | LG+G       | OG0009266_rename               | 53444-53539                    | ./analysis/phylofiles/9490b3bc15b6fd3830546b5f16d03205.phy
+
+
+Scheme Description in PartitionFinder format
+Scheme_step_125 = (OG0000005_rename) (OG0000018_rename, OG0005135_rename, OG0005894_rename, OG0009202_rename) (OG0000023_rename, OG0006987_rename, OG0007836_rename) (OG0000049_rename) (OG0000054_rename, OG0003285_rename, OG0006526_rename) (OG0000088_rename) (OG0000111_rename) (OG0000123_rename) (OG0000138_rename, OG0000731_rename, OG0004731_rename, OG0006584_rename, OG0006806_rename) (OG0000145_rename) (OG0000158_rename, OG0006013_rename) (OG0000205_rename, OG0001635_rename, OG0007024_rename, OG0007145_rename, OG0007217_rename, OG0007969_rename) (OG0000209_rename) (OG0000232_rename) (OG0000287_rename) (OG0000312_rename, OG0005293_rename) (OG0000326_rename) (OG0000364_rename) (OG0000372_rename, OG0002839_rename, OG0005237_rename, OG0006475_rename, OG0006772_rename, OG0007831_rename) (OG0000397_rename) (OG0000416_rename, OG0006039_rename) (OG0000428_rename) (OG0000438_rename, OG0001332_rename, OG0004330_rename, OG0006586_rename, OG0006670_rename) (OG0000455_rename) (OG0000501_rename) (OG0000708_rename) (OG0000724_rename, OG0003575_rename, OG0005058_rename, OG0005197_rename, OG0005418_rename, OG0006668_rename, OG0007688_rename, OG0007954_rename) (OG0000728_rename) (OG0000778_rename) (OG0000799_rename, OG0005305_rename) (OG0000844_rename, OG0007710_rename, OG0008538_rename) (OG0000857_rename) (OG0000860_rename, OG0005247_rename, OG0005336_rename, OG0006179_rename, OG0006698_rename) (OG0001087_rename) (OG0001263_rename, OG0003666_rename, OG0004839_rename) (OG0001302_rename) (OG0001385_rename, OG0007390_rename) (OG0001464_rename) (OG0001697_rename) (OG0001920_rename) (OG0001995_rename) (OG0002044_rename) (OG0002108_rename) (OG0002158_rename) (OG0002401_rename) (OG0002517_rename) (OG0002537_rename, OG0005517_rename, OG0005742_rename, OG0006182_rename) (OG0002571_rename, OG0006897_rename) (OG0002597_rename) (OG0002626_rename, OG0005822_rename, OG0007058_rename, OG0007087_rename) (OG0002642_rename, OG0006766_rename, OG0007109_rename, OG0007977_rename) (OG0002807_rename, OG0006626_rename) (OG0002938_rename, OG0008374_rename) (OG0003214_rename, OG0006068_rename, OG0006126_rename, OG0006290_rename, OG0007061_rename, OG0007963_rename) (OG0003460_rename) (OG0003573_rename) (OG0003694_rename) (OG0004132_rename, OG0005518_rename, OG0007985_rename) (OG0004220_rename) (OG0004397_rename) (OG0004403_rename) (OG0004432_rename, OG0006718_rename, OG0007895_rename) (OG0004481_rename, OG0006416_rename, OG0007709_rename) (OG0004491_rename, OG0005505_rename) (OG0004495_rename, OG0008456_rename) (OG0004517_rename) (OG0004538_rename) (OG0004598_rename, OG0005072_rename, OG0005665_rename, OG0008222_rename) (OG0004611_rename, OG0006041_rename, OG0006372_rename, OG0006688_rename, OG0006929_rename, OG0007303_rename, OG0007841_rename) (OG0004671_rename) (OG0004679_rename) (OG0004684_rename) (OG0004778_rename) (OG0004794_rename, OG0005732_rename) (OG0004816_rename) (OG0004907_rename, OG0005524_rename, OG0007327_rename) (OG0005026_rename, OG0007232_rename) (OG0005048_rename, OG0007550_rename) (OG0005112_rename, OG0006993_rename, OG0007000_rename) (OG0005116_rename) (OG0005215_rename) (OG0005337_rename) (OG0005352_rename, OG0006187_rename, OG0007447_rename) (OG0005431_rename) (OG0005440_rename) (OG0005447_rename) (OG0005454_rename) (OG0005472_rename) (OG0005473_rename) (OG0005559_rename) (OG0005574_rename) (OG0005589_rename) (OG0005623_rename) (OG0005628_rename) (OG0005662_rename, OG0006400_rename) (OG0005667_rename) (OG0005689_rename) (OG0005747_rename) (OG0005773_rename) (OG0005776_rename, OG0006000_rename) (OG0005787_rename) (OG0005848_rename) (OG0005898_rename) (OG0005945_rename, OG0006232_rename) (OG0005948_rename) (OG0005953_rename, OG0006355_rename) (OG0005954_rename) (OG0005956_rename, OG0007420_rename) (OG0006005_rename, OG0006304_rename, OG0006817_rename) (OG0006006_rename, OG0006176_rename, OG0006579_rename, OG0006809_rename, OG0006921_rename) (OG0006042_rename, OG0007071_rename, OG0007204_rename) (OG0006062_rename) (OG0006063_rename) (OG0006114_rename) (OG0006119_rename) (OG0006120_rename) (OG0006130_rename) (OG0006171_rename) (OG0006250_rename) (OG0006286_rename) (OG0006340_rename) (OG0006344_rename) (OG0006357_rename) (OG0006382_rename) (OG0006395_rename) (OG0006408_rename, OG0007375_rename) (OG0006465_rename, OG0006775_rename) (OG0006471_rename) (OG0006477_rename) (OG0006478_rename) (OG0006494_rename, OG0007657_rename) (OG0006514_rename) (OG0006515_rename) (OG0006524_rename, OG0007557_rename, OG0009067_rename) (OG0006543_rename, OG0007333_rename) (OG0006580_rename) (OG0006581_rename) (OG0006597_rename) (OG0006599_rename) (OG0006613_rename) (OG0006628_rename) (OG0006635_rename) (OG0006637_rename) (OG0006689_rename) (OG0006693_rename) (OG0006699_rename) (OG0006705_rename) (OG0006731_rename) (OG0006746_rename) (OG0006747_rename) (OG0006755_rename) (OG0006811_rename) (OG0006821_rename) (OG0006860_rename) (OG0006873_rename, OG0007510_rename) (OG0006876_rename) (OG0006882_rename) (OG0006909_rename, OG0007614_rename) (OG0006928_rename) (OG0006933_rename) (OG0006934_rename) (OG0006948_rename) (OG0006991_rename) (OG0006992_rename, OG0007537_rename, OG0007978_rename) (OG0006995_rename, OG0007778_rename) (OG0007004_rename) (OG0007028_rename, OG0008335_rename) (OG0007047_rename) (OG0007066_rename) (OG0007084_rename) (OG0007089_rename) (OG0007101_rename) (OG0007115_rename) (OG0007121_rename, OG0008543_rename) (OG0007159_rename, OG0007226_rename) (OG0007161_rename) (OG0007175_rename) (OG0007186_rename) (OG0007202_rename) (OG0007235_rename) (OG0007239_rename) (OG0007287_rename, OG0008052_rename) (OG0007288_rename) (OG0007292_rename) (OG0007302_rename) (OG0007307_rename) (OG0007331_rename, OG0007372_rename) (OG0007336_rename) (OG0007362_rename) (OG0007364_rename, OG0008629_rename) (OG0007365_rename) (OG0007366_rename) (OG0007368_rename) (OG0007442_rename) (OG0007482_rename, OG0007958_rename) (OG0007491_rename) (OG0007508_rename, OG0007765_rename) (OG0007509_rename) (OG0007542_rename, OG0008149_rename) (OG0007551_rename) (OG0007553_rename, OG0008045_rename) (OG0007565_rename) (OG0007589_rename) (OG0007630_rename) (OG0007631_rename) (OG0007640_rename) (OG0007691_rename) (OG0007697_rename) (OG0007707_rename) (OG0007724_rename) (OG0007727_rename) (OG0007768_rename) (OG0007776_rename) (OG0007791_rename) (OG0007828_rename) (OG0007964_rename, OG0008130_rename) (OG0007967_rename) (OG0007987_rename) (OG0007994_rename) (OG0008003_rename) (OG0008088_rename) (OG0008091_rename) (OG0008162_rename, OG0008344_rename, OG0008624_rename) (OG0008167_rename) (OG0008170_rename) (OG0008299_rename) (OG0008540_rename) (OG0008560_rename) (OG0008641_rename) (OG0008735_rename) (OG0008960_rename) (OG0009266_rename);
+
+RaxML-style partition definitions
+LG, p1 = 1-186
+LG, p2 = 187-324, 16209-16534, 22190-22370, 53343-53443
+LG, p3 = 325-499, 36668-36794, 48643-48778
+LG, p4 = 500-671
+LG, p5 = 672-945, 10291-10442, 29790-29908
+LG, p6 = 946-1118
+LG, p7 = 1119-1319
+JTT, p8 = 1320-1490
+LG, p9 = 1491-1767, 5153-5352, 14062-14392, 30377-30438, 34049-34236
+LG, p10 = 1768-1952
+LG, p11 = 1953-2107, 23743-23956
+LG, p12 = 2108-2237, 7262-7457, 37757-37855, 39561-39659, 40575-40721, 49862-49973
+LG, p13 = 2238-2425
+LG, p14 = 2426-2498
+LG, p15 = 2499-2701
+LG, p16 = 2702-2999, 17266-17458
+LG, p17 = 3000-3266
+WAG, p18 = 3267-3466
+LG, p19 = 3467-3675, 9704-9854, 16957-17126, 28529-28690, 33862-33948, 48467-48642
+LG, p20 = 3676-3811
+LG, p21 = 3812-3921, 23957-24133
+LG, p22 = 3922-4044
+LG, p23 = 4045-4173, 6640-6831, 11290-11497, 30439-30582, 31966-32084
+LG, p24 = 4174-4323
+JTT, p25 = 4324-4481
+LG, p26 = 4482-4742
+LG, p27 = 4743-4988, 10678-10717, 15562-15676, 16535-16686, 18142-18238, 31773-31965, 46770-46924, 49082-49132
+LG, p28 = 4989-5152
+LG, p29 = 5353-5610
+LG, p30 = 5611-5863, 17459-17688
+LG, p31 = 5864-6004, 47443-47480, 52236-52384
+LG, p32 = 6005-6117
+LG, p33 = 6118-6229, 17127-17265, 17689-17901, 25952-26137, 32482-32663
+JTT, p34 = 6230-6375
+LG, p35 = 6376-6563, 10718-10809, 15017-15205
+LG, p36 = 6564-6639
+LG, p37 = 6832-7058, 43736-43936
+LG, p38 = 7059-7261
+LG, p39 = 7458-7639
+LG, p40 = 7640-7832
+LG, p41 = 7833-7980
+LG, p42 = 7981-8096
+LG, p43 = 8097-8304
+LG, p44 = 8305-8359
+LG, p45 = 8360-8498
+LG, p46 = 8499-8613
+LG, p47 = 8614-8771, 19364-19526, 21183-21305, 26138-26264
+LG, p48 = 8772-8845, 35559-35737
+LG, p49 = 8846-9063
+LG, p50 = 9064-9201, 21896-22031, 38221-38355, 38976-39077
+LG, p51 = 9202-9385, 33762-33861, 39253-39355, 49974-50045
+LG, p52 = 9386-9703, 31313-31460
+LG, p53 = 9855-10168, 52106-52136
+LG, p54 = 10169-10290, 24701-24924, 25313-25480, 26727-26849, 38356-38533, 49306-49508
+LG, p55 = 10443-10546
+LG, p56 = 10547-10677
+LG, p57 = 10810-10927
+LG, p58 = 10928-11046, 19527-19616, 50233-50407
+LG, p59 = 11047-11289
+LG, p60 = 11498-11851
+LG, p61 = 11852-12047
+LG, p62 = 12048-12196, 33053-33172, 48901-49081
+JTT, p63 = 12197-12309, 28186-28244, 47313-47442
+LG, p64 = 12310-12532, 19252-19363
+LG, p65 = 12533-12783, 52137-52235
+LG, p66 = 12784-12995
+LG, p67 = 12996-13217
+LG, p68 = 13218-13470, 15677-15845, 20599-20767, 51663-51786
+LG, p69 = 13471-13581, 24134-24231, 27502-27638, 32085-32233, 36190-36306, 41745-41862, 48779-48900
+LG, p70 = 13582-13708
+LG, p71 = 13709-13796
+LG, p72 = 13797-14061
+LG, p73 = 14393-14779
+LG, p74 = 14780-14895, 21075-21182
+LGF, p75 = 14896-15016
+LG, p76 = 15206-15314, 19617-19781, 42001-42169
+LG, p77 = 15315-15444, 40829-40937
+LG, p78 = 15445-15561, 45175-45347
+LG, p79 = 15846-16021, 37204-37292, 37486-37620
+LG, p80 = 16022-16208
+LGF, p81 = 16687-16956
+LG, p82 = 17902-18019
+LG, p83 = 18020-18141, 26265-26440, 44316-44465
+WAG, p84 = 18239-18325
+LG, p85 = 18326-18501
+JTT, p86 = 18502-18647
+LG, p87 = 18648-18786
+LG, p88 = 18787-18975
+LG, p89 = 18976-19251
+LG, p90 = 19782-19947
+JTT, p91 = 19948-20093
+LG, p92 = 20094-20249
+LG, p93 = 20250-20350
+LGF, p94 = 20351-20549
+LG, p95 = 20550-20598, 27922-28063
+DAYHOFF, p96 = 20768-20883
+LG, p97 = 20884-21074
+WAG, p98 = 21306-21357
+LG, p99 = 21358-21504
+LG, p100 = 21505-21733, 23409-23530
+DAYHOFF, p101 = 21734-21895
+LG, p102 = 22032-22189
+JTT, p103 = 22371-22573
+LG, p104 = 22574-22689, 26441-26553
+LG, p105 = 22690-22870
+LG, p106 = 22871-22998, 27230-27339
+LG, p107 = 22999-23149
+LGF, p108 = 23150-23408, 43937-44135
+LG, p109 = 23531-23647, 26850-26980, 34623-34748
+LG, p110 = 23648-23742, 25819-25951, 30029-30152, 34237-34417, 35865-36083
+LG, p111 = 24232-24376, 38709-38812, 40488-40574
+LG, p112 = 24377-24493
+LG, p113 = 24494-24700
+LG, p114 = 24925-25015
+LG, p115 = 25016-25119
+LG, p116 = 25120-25312
+LG, p117 = 25481-25685
+LGF, p118 = 25686-25818
+LG, p119 = 26554-26683
+LG, p120 = 26684-26726
+LG, p121 = 26981-27058
+LG, p122 = 27059-27229
+LG, p123 = 27340-27501
+JTT, p124 = 27639-27775
+LG, p125 = 27776-27921
+LG, p126 = 28064-28185, 43623-43735
+LG, p127 = 28245-28451, 33949-34048
+JTT, p128 = 28452-28528
+LG, p129 = 28691-28873
+LG, p130 = 28874-28980
+LG, p131 = 28981-29202, 46563-46769
+WAG, p132 = 29203-29409
+LG, p133 = 29410-29578
+LG, p134 = 29579-29789, 45597-45774, 53294-53342
+LG, p135 = 29909-30028, 42289-42427
+LG, p136 = 30153-30274
+CPREV, p137 = 30275-30376
+LG, p138 = 30583-30753
+WAG, p139 = 30754-30976
+LGF, p140 = 30977-31312
+LG, p141 = 31461-31514
+LG, p142 = 31515-31644
+WAG, p143 = 31645-31772
+LG, p144 = 32234-32371
+LG, p145 = 32372-32481
+LG, p146 = 32664-32843
+LG, p147 = 32844-33052
+LG, p148 = 33173-33323
+LG, p149 = 33324-33529
+LG, p150 = 33530-33621
+LG, p151 = 33622-33761
+LG, p152 = 34418-34622
+LG, p153 = 34749-35013
+LG, p154 = 35014-35202
+LGF, p155 = 35203-35339, 44915-45023
+LG, p156 = 35340-35439
+JTT, p157 = 35440-35558
+LG, p158 = 35738-35864, 45926-46110
+LG, p159 = 36084-36189
+LG, p160 = 36307-36380
+LG, p161 = 36381-36554
+LG, p162 = 36555-36667
+CPREVF, p163 = 36795-37025
+LG, p164 = 37026-37203, 45024-45109, 50046-50232
+VT, p165 = 37293-37485, 48071-48218
+JTT, p166 = 37621-37756
+LG, p167 = 37856-38041, 51911-52005
+LGF, p168 = 38042-38220
+LG, p169 = 38534-38708
+JTT, p170 = 38813-38975
+LG, p171 = 39078-39191
+LG, p172 = 39192-39252
+VT, p173 = 39356-39426
+LG, p174 = 39427-39560, 52456-52555
+LG, p175 = 39660-39743, 40722-40828
+LG, p176 = 39744-39851
+LG, p177 = 39852-40019
+LG, p178 = 40020-40277
+LG, p179 = 40278-40487
+LG, p180 = 40938-41157
+LG, p181 = 41158-41251
+LG, p182 = 41252-41377, 50966-51042
+LG, p183 = 41378-41519
+JTT, p184 = 41520-41649
+JTT, p185 = 41650-41744
+LG, p186 = 41863-42000
+LG, p187 = 42170-42288, 43400-43622
+LG, p188 = 42428-42579
+LG, p189 = 42580-42707
+LG, p190 = 42708-42874, 52809-52914
+LG, p191 = 42875-43071
+LG, p192 = 43072-43265
+LG, p193 = 43266-43399
+LG, p194 = 44136-44315
+LG, p195 = 44466-44537, 49133-49305
+LG, p196 = 44538-44623
+LG, p197 = 44624-44818, 47661-47849
+LG, p198 = 44819-44914
+LG, p199 = 45110-45174, 51288-51333
+LG, p200 = 45348-45476
+LG, p201 = 45477-45596, 50866-50965
+JTT, p202 = 45775-45874
+LG, p203 = 45875-45925
+LG, p204 = 46111-46253
+JTT, p205 = 46254-46456
+JTT, p206 = 46457-46562
+LG, p207 = 46925-47056
+LG, p208 = 47057-47143
+LG, p209 = 47144-47312
+LG, p210 = 47481-47549
+LG, p211 = 47550-47660
+LG, p212 = 47850-47936
+LG, p213 = 47937-48070
+LG, p214 = 48219-48266
+LG, p215 = 48267-48466
+LG, p216 = 49509-49595, 51198-51287
+LG, p217 = 49596-49861
+JTT, p218 = 50408-50588
+LG, p219 = 50589-50789
+LG, p220 = 50790-50865
+LG, p221 = 51043-51146
+LG, p222 = 51147-51197
+LG, p223 = 51334-51422, 52006-52105, 52685-52808
+LG, p224 = 51423-51536
+LG, p225 = 51537-51662
+LG, p226 = 51787-51910
+LG, p227 = 52385-52455
+LG, p228 = 52556-52684
+LG, p229 = 52915-53082
+LG, p230 = 53083-53190
+LG, p231 = 53191-53293
+LG, p232 = 53444-53539
