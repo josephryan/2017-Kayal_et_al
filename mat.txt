@@ -1,0 +1,1 @@
+	occ	parts	len	taxOF_final	62.4	372	53318	68OF_prelim	62.7	357	55195	54	Agalma	49.5	962	233497	55Zapata	53.7	1262	364938	31Chang	93.5	200	51719	30
