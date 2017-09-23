@@ -12,6 +12,9 @@ License covering all scripts in this repository
 #### NV_GO_Enrich_rels.R
 R script used for GO enrichment analyses
 
+#### PhyloBayesCATGTRI_OF75tx_1.treelist.pruned
+PhyloBayes output before pruning Trichoplax
+
 #### PhyloBayesCATGTRI_OF75tx_2.treelist.pruned
 PhyloBayes output after pruning Trichoplax
 
