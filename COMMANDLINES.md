@@ -63,9 +63,9 @@ b. Make multiple alignments for each pruned orthogroup using MAFFT align pruned 
 
 c. trim alignments
 
-```parallel -j14 'gblocks_wrapper {}' ::: ./pruned_0.7/*_aln
-rm *.htm
-```
+```parallel -j14 'gblocks_wrapper {}' ::: ./pruned_0.7/*_aln```
+
+```rm *.htm```
 
 d. remove gaps
 
