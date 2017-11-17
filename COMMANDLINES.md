@@ -208,7 +208,7 @@ d. Figure 4C
 
 ### References
 
-```Altschul SF, Gish W, Miller W, Myers EW, Lipman DJ 1990. Basic local alignment search tool. J Mol Biol 215: 403-410. doi: 10.1016/S0022-2836(05)80360-2
+Altschul SF, Gish W, Miller W, Myers EW, Lipman DJ 1990. Basic local alignment search tool. J Mol Biol 215: 403-410. doi: 10.1016/S0022-2836(05)80360-2
 
 Dunn CW, Howison M, Zapata F 2013. Agalma: an automated phylogenomics workflow. BMC Bioinformatics 14: 330. doi: 10.1186/1471-2105-14-330
 
@@ -222,5 +222,4 @@ Kocot KM, Citarella MR, Moroz LL, Halanych KM 2013. PhyloTreePruner: A Phylogene
 Minin VN SM, Imholte GC. 2014. indorigin: Testing how many times a trait of interest was regained during evolution (R package).
 
 Revell LJ 2012. phytools: an R package for phylogenetic comparative biology (and other things). Methods in Ecology and Evolution 3: 217-223. doi: 10.1111/j.2041-210X.2011.00169.x
-```
 
