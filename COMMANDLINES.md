@@ -1,4 +1,4 @@
-# Supplementary Methods: Commands and Parameters used in Analyses
+# Commands and Parameters used in Analyses
 
 ### A. Data preparation and filtering
 
