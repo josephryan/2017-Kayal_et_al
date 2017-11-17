@@ -1,3 +1,5 @@
+See [COMMANDLINES.md](https://github.com/josephryan/2017-Kayal_et_al/blob/master/COMMANDLINES.md) for command lines.
+
 # Scripts used for Kayal et al., in prep.
 
 #### Char_map_5.11.R
