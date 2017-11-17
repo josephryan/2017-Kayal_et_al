@@ -20,11 +20,11 @@ Dependencies: BLAST (Altschul et al 1990)
 
 #### A3. FASTA files for each taxon BLASTed against cnidarian/bilaterian database (alien_index step 2)
 
-```blastx -query myseqs2.fa -db bilat_ai.fa -outfmt 6 -max_target_seqs 1000 -seg yes -evalue 0.001 -out myseqs2_v_bilat_ai.blastx
+```blastx -query myseqs2.fa -db bilat_ai.fa -outfmt 6 -max_target_seqs 1000 -seg yes -evalue 0.001 -out myseqs2_v_bilat_ai.blastx```
 
-alien_index --blast=myseqs2_v_ai.blastx --alien_pattern=ALIEN_ > myseqs2.alien_index
+```alien_index --blast=myseqs2_v_ai.blastx --alien_pattern=ALIEN_ > myseqs2.alien_index```
 
-remove_aliens myseqs2.alien_index myseqs2.fa > myseqs3.fa```
+```remove_aliens myseqs2.alien_index myseqs2.fa > myseqs3.fa```
 
 ### B. De novo phylogenomic matrix construction
 
@@ -64,8 +64,8 @@ cut off OG idenfier so that seqCat can concatenate
 ```parallel -j14 'cut -f1 -d"|" {} > {.}_rename' ::: ./pruned_0.7/*gb```
 
 concatenate all OGs into single nexus
-```ls ./pruned_0.7/*_rename > parts_list
-seqCat.pl -dparts_list```
+```ls ./pruned_0.7/*_rename > parts_list```
+```seqCat.pl -dparts_list```
 
 ##### B3. Agalma procedure on all data 
 
