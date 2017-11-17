@@ -12,11 +12,11 @@ Dependencies: Transdecoder 2.0.2 (Hass 2013)
 
 Dependencies: BLAST (Altschul et al 1990)
 
-```blastx -query myseqs.fa -db ai.fa -outfmt 6 -max_target_seqs 1000 -seg yes -evalue 0.001 -out myseqs_v_ai.blastx 
+```blastx -query myseqs.fa -db ai.fa -outfmt 6 -max_target_seqs 1000 -seg yes -evalue 0.001 -out myseqs_v_ai.blastx```
 
-alien_index --blast=myseqs_v_ai.blastx --alien_pattern=ALIEN_ > myseqs.alien_index
+```alien_index --blast=myseqs_v_ai.blastx --alien_pattern=ALIEN_ > myseqs.alien_index```
 
-remove_aliens myseqs.alien_index myseqs.fa > myseqs2.fa```
+```remove_aliens myseqs.alien_index myseqs.fa > myseqs2.fa```
 
 #### A3. FASTA files for each taxon BLASTed against cnidarian/bilaterian database (alien_index step 2)
 
