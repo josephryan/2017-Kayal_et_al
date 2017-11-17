@@ -12,16 +12,18 @@ Dependencies: Transdecoder 2.0.2 (Hass 2013)
 
 Dependencies: BLAST (Altschul et al 1990)
 
-```blastx -query myseqs.fa -db ai.fa -outfmt 6 -max_target_seqs 1000 -seg yes \
-        -evalue 0.001 -out myseqs_v_ai.blastx
+```blastx -query myseqs.fa -db ai.fa -outfmt 6 -max_target_seqs 1000 -seg yes -evalue 0.001 -out myseqs_v_ai.blastx 
+
 alien_index --blast=myseqs_v_ai.blastx --alien_pattern=ALIEN_ > myseqs.alien_index
+
 remove_aliens myseqs.alien_index myseqs.fa > myseqs2.fa```
 
 #### A3. FASTA files for each taxon BLASTed against cnidarian/bilaterian database (alien_index step 2)
 
-```blastx -query myseqs2.fa -db bilat_ai.fa -outfmt 6 -max_target_seqs 1000 -seg yes \
-        -evalue 0.001 -out myseqs2_v_bilat_ai.blastx
+```blastx -query myseqs2.fa -db bilat_ai.fa -outfmt 6 -max_target_seqs 1000 -seg yes -evalue 0.001 -out myseqs2_v_bilat_ai.blastx
+
 alien_index --blast=myseqs2_v_ai.blastx --alien_pattern=ALIEN_ > myseqs2.alien_index
+
 remove_aliens myseqs2.alien_index myseqs2.fa > myseqs3.fa```
 
 ### B. De novo phylogenomic matrix construction
@@ -30,31 +32,25 @@ remove_aliens myseqs2.alien_index myseqs2.fa > myseqs3.fa```
 
 Dependencies: Orthofinder v0.4.0 (Emms and Kelly 2015); PhyloTreePrunner (Kocot et al 2013)
 
-###### -	Setup OrthoFinder for external BLAST searches:
-
+Setup OrthoFinder for external BLAST searches:
 ```orthofinder.py -f DB_redo –p```
 
--	Run array BLAST command lines produced by the previous command.
--	Create orthogroups 
-
+Run array BLAST command lines produced by the previous command.
+Create orthogroups 
 ```orthofinder.py -b DB/Results_Jul22/WorkingDirectory/ -t $NSLOTS```
 
 
-###### -	Make gene trees with OF:
-
+Make gene trees with OF:
 ```trees_for_orthogroups.py -b DB_redo/Results_Dec15/WorkingDirectory/ -t $NSLOTS```
 
 ##### B2. Selection by taxon occupancy criterion for OF–PTP 
 
-###### -	Use Phylotreepruner to select monophyletic clades within orthogroups created by OF
-
+Use Phylotreepruner to select monophyletic clades within orthogroups created by OF
 ```mkdir pruned
 for x in Alignments/*; do runphylotreepruner  Trees/`basename ${x%.fa}`_tree.txt 37  Alignments/`basename ${x%.fa}`.fa   0.5 u ; done
 mv Alignments/*pruned* pruned/```
 
-###### -	Make multiple alignments for each pruned orthogroup using MAFFT
-
-align pruned OGs
+Make multiple alignments for each pruned orthogroup using MAFFT align pruned OGs
 ```parallel -j14 'mafft --auto {} > {.}_aln'  ::: ./pruned_0.7/*.fa```
 
 trim alignments
