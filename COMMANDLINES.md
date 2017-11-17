@@ -30,24 +30,30 @@
 
 ##### B1. Orthofinder procedure on all data
 
-#Dependencies: Orthofinder v0.4.0 (Emms and Kelly 2015); PhyloTreePrunner (Kocot et al 2013)*
+*Dependencies: Orthofinder v0.4.0 (Emms and Kelly 2015); PhyloTreePrunner (Kocot et al 2013)*
 
 a. Setup OrthoFinder for external BLAST searches:
+
 ```orthofinder.py -f DB_redo –p```
 
 b. Run array BLAST command lines produced by the previous command.
 
 c. Create orthogroups 
+
 ```orthofinder.py -b DB/Results_Jul22/WorkingDirectory/ -t $NSLOTS```
 
 d. Make gene trees with OF:
+
 ```trees_for_orthogroups.py -b DB_redo/Results_Dec15/WorkingDirectory/ -t $NSLOTS```
 
 ##### B2. Selection by taxon occupancy criterion for OF–PTP 
 
 a. Use Phylotreepruner to select monophyletic clades within orthogroups created by OF
+
 ```mkdir pruned
-for x in Alignments/*; do runphylotreepruner  Trees/`basename ${x%.fa}`_tree.txt 37  Alignments/`basename ${x%.fa}`.fa   0.5 u ; done
+for x in Alignments/*; 
+    do runphylotreepruner  Trees/`basename ${x%.fa}`_tree.txt 37  Alignments/`basename ${x%.fa}`.fa   0.5 u ; 
+done
 mv Alignments/*pruned* pruned/
 ```
 
